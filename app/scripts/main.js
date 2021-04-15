@@ -1,4 +1,5 @@
 import '../components/menu-inner/menu.js'
+import '../components/wrapper/wrapper.js'
 
 $(window).on('main:ready', (event, data) => {
   console.log(data);

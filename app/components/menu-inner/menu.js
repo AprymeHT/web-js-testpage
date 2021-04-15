@@ -5,8 +5,6 @@ class MenuItem {
 
     //this.onLoad = this.onLoad.bind(this)
     $(window).on('main:ready', this.onLoad);
-
-
   }
 
   // $('ul.menu-inner__list').append($('<li>')).attr('class', 'menu-inner__item');
@@ -26,11 +24,15 @@ class MenuItem {
     })
     const $link = $element.find('li.menu-inner__item a');
     $link.click((e) => {
+      e.preventDefault();
       const $target = $(e.currentTarget);
       const link = $target.attr("href");
-      $target.trigger('change-page', [link]);
+      const name = $target.text();
+      console.log(name);
+      console.log(link);
+      $target.trigger('change-page', [link, name]);
     })
-    $link.css({pointerEvents: 'none'});
+      //$link.css({pointerEvents: 'none'});
   }
 
 }
