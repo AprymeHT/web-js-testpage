@@ -3,14 +3,26 @@ class Language {
     console.log($element);
     this.$element = $element;
 
-    this.onload();
+    $(window).on('main:ready', this.onload);
   }
 
-  onload = () => {
+  onload = (e, data) => {
     const {$element} = this;
+    const {item, texts, lang} = data.menu;
+    console.log(texts);
 
-    const $lang = $('div.langs');
-    console.log($lang.text());
+    const $lang = $('.button_small');
+
+    lang.forEach(({text, value, tag}, index) => {
+      const text1 = texts[index]?.en;
+      console.log(text1);
+      const tagName = tag;
+      console.log(tagName);
+      $(tagName).text(text1);
+
+    })
+
+
   }
 }
 

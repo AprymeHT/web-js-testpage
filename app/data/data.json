@@ -29,54 +29,134 @@
     ],
     "texts": [
       {
-        "de": "",
-        "en": "",
+        "de": "Goethe studierte Jura zuerst in Leipzig und dann in Straβburg. Auβerdem studierte er Naturwissenschaften und Medizin. In Leipzig verbrachte er drei Jahre. Hier entstanden die lyrischen Gedichte, die als «Lieder für Käthchen Schönkopf» bekannt sind. Sie sind klangvoll und leidenschaftlich.\n\nIn der Zeit von 1768 bis 1777 erkrankte Goethe schwer. Aber er hatte Glück, wurde wieder gesund und konnte seine Ausbildung fortsetzen. In dieser Zeit schrieb er viele Gedichte. Das war die Zeit der groβen Lyrik. Lieder im Volkston wechselten mit Hymnen in freien Rhythmen.\n",
+        "en": "From Monday to Friday I think about weekends OR how I will spend Saturday and Sunday. I don’t have many friends, that’s why I have to come up with the entertaining ideas for me on my own. I’m not a couch potato and hate spending my time only beside the TV-set. I’m likely to go somewhere on foot just to have a walk if I have no other plans. Active life captivates me most of all.\n\nOn Saturday morning I never wake up too late. I’d rather wake me up at dawn than lie slugging in a bed till midday. After drinking a cup of coffee, I spend 15 minutes on reading the news about politics.",
         "ru": "Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене.\n\nКаждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.\nСпециалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента.\n\nFriedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах.\n\nУзнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen в Вене"
       },
       {
+        "de": "Speichern und wachsen",
+        "en": "Save and grow",
         "ru": "Сохранить и приумножить"
       },
       {
+        "de": "+7 (495) 662 76 77",
+        "en": "+7 (495) 662 76 77",
         "ru": "+7 (495) 662 76 77"
       },
       {
+        "de": "DE",
+        "en": "EN",
         "ru": "RU"
       },
       {
+        "de": "Speichern und wachsen",
+        "en": "Save and grow",
         "ru": "Сохранить и преумножить"
       },
       {
+        "de": "Holen Sie sich Finanzierung",
+        "en": "Get funding",
         "ru": "Получить финансирование"
       },
       {
+        "de": "Lösung für Ihr Unternehmen\n",
+        "en": "Solution for your business\n",
         "ru": "Решение для вашего бизнеса"
       },
       {
+        "de": "Lösung für Ihr Unternehmen",
+        "en": "Banking service",
         "ru": "Банковское обслуживание"
       },
       {
+        "de": "Familienlösung und Beratung",
+        "en": "Family solution and consulting",
         "ru": "Решение для вашей семьи и консалтинг"
       },
       {
+        "de": null,
+        "en": null,
         "ru": null
       },
       {
+        "de": "Über uns",
+        "en": "About us",
         "ru": "О нас"
       },
       {
+        "de": "Kontaktinformationen",
+        "en": "Contact Information",
         "ru": "Контактная информация"
       },
       {
+        "de": "Raiffeisen-Online",
+        "en": "Raiffeisen-Online",
         "ru": "Raiffeisen-Online"
       },
       {
+        "de": "R-Dealer",
+        "en": "R-Dealer",
         "ru": "R-Dealer"
       },
       {
+        "de": "Laden Sie 'FWR Services'",
+        "en": "Download 'FWR Services'",
         "ru": "Скачать'Услуги FWR'"
       },
       {
+        "de": "© 2009-2017 «Raiffeisen»",
+        "en": "© 2009-2017 «Raiffeisen»",
         "ru": "© 2009-2017 АО «Райффайзенбанк»"
+      }
+    ],
+    "lang": [
+      {
+        "tag": ".inner-part-column"
+      },
+      {
+        "tag": ".inner-part__title"
+      },
+      {
+        "tag": ".header__phone"
+      },
+      {
+        "tag": ".langs"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".menu-inner__item a"
+      },
+      {
+        "tag": ".button_dark"
+      },
+      {
+        "tag": ".button_small"
+      },
+      {
+        "tag": ".menu-inner__download-button-text"
+      },
+      {
+        "tag": ".menu-inner__footer"
       }
     ],
     "links": [
