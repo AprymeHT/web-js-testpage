@@ -17,9 +17,10 @@ class MenuItem {
     //const $container = $element.find('ul.menu-inner__list');
     const $container = $element.find('div.links-button');
     items.forEach(({text:textID, isLine, value}, index) => {
+
       const text = texts[textID]?.ru;
       const link = links[index]?.ru;
-      const str = `<li class="menu-inner__item${isLine ? " menu-inner__item-line" : ""}"> <a href="${isLine ? "" : link}">${text || ""}</a></li>`
+      const str = `<li class="menu-inner__item${isLine ? " menu-inner__item-line" : ""}"${isLine ? "" : "data-trnslt=" + (index + 4)}> <a href="${isLine ? "" : link}">${text || ""}</a></li>`
       $container.before(str);
     })
     const $link = $element.find('li.menu-inner__item a');

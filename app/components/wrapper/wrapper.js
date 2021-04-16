@@ -4,11 +4,6 @@ class Wrapper {
     this.$element = $element;
 
     //this.onLoad = this.onLoad.bind(this)
-    this.onLoad();
-  }
-
-  onLoad = (e, data) => {
-    const {$element} = this;
 
     const $title = $("title");
     console.log($title);
@@ -18,7 +13,7 @@ class Wrapper {
       console.log($target);
       $title.text(name);
       $target.trigger('page-changed', [link]);
-    });
+    })
   }
 }
 
