@@ -8,8 +8,20 @@ class Language {
 
   onload = (e, data) => {
     const {$element} = this;
-    const {item, texts, lang} = data.menu;
-    console.log(texts);
+    const {items, texts, lang, langItem} = data.menu;
+
+    const $container = $element.find('ul');
+    langItem.forEach(({change}, index) => {
+      console.log(change);
+      const str = `<li class="langs__item">${change}</li>`;
+      $container.append(str);
+    })
+
+    console.log($container);
+
+
+
+   /* console.log(texts);
 
     const $lang = $('.button_small');
 
@@ -20,7 +32,7 @@ class Language {
       console.log(tagName);
       $(tagName).text(text1);
 
-    })
+    })*/
 
 
   }

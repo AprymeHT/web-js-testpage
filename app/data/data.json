@@ -159,6 +159,17 @@
         "tag": ".menu-inner__footer"
       }
     ],
+    "langItem": [
+      {
+        "change": "ru"
+      },
+      {
+        "change": "en"
+      },
+      {
+        "change": "de"
+      }
+    ],
     "links": [
       {
         "ru": "www.f.ru"
