@@ -6,17 +6,8 @@ $(window).on('main:ready', (e,data) => {
     console.log(pText);
 
     texts.forEach((e, index) => {
-      const text = texts[index].ru;
-      console.log(text);
+      const text = texts[index][pText];
       $(`[data-trnslt=${index}]`).text(text);
     })
   })
 });
-
-
-/*$(texts).each((index, element) => {
-      const text = texts[index].ia;
-      $(`[data-trnslt=${index}]`).text(text);
-        /!*.data('trnslt'));*!/
-     /!* console.log(text);*!/
-    })*/

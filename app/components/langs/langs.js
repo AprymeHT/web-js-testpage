@@ -26,8 +26,8 @@ class Language {
 
     $langItem.on('click', e => {
       const $target = $(e.currentTarget);
-      const pText = $paragraph.text();
       $paragraph.text($target.text());
+      const pText = $paragraph.text();
       $element.removeClass('langs_active');
       e.stopPropagation();
       $target.trigger('change-language', [pText]);
