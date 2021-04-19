@@ -23,7 +23,8 @@ class Language {
   }
 
   langItems() {
-    const $container = $('div.langs').find('ul');
+    const {$element} = this;
+    const $container = $element.find('ul');
     const {langItem} = this.data.menu;
     langItem.forEach(({change}) => {
       const str = `<li class="langs__item">${change}</li>`;
@@ -31,7 +32,8 @@ class Language {
     })};
 
   classRemove = (e) => {
-    const $langs = $('div.langs');
+    const {$element} = this;
+    const $langs = $element;
     const $target = $(e.currentTarget);
     const $paragraph = $langs.find('p');
     $paragraph.text($target.text());
@@ -42,7 +44,8 @@ class Language {
   }
 
   classAdd = () => {
-    const $target = $('div.langs');
+    const {$element} = this;
+    const $target = $element;
     $target.addClass('langs_active');
   }
 
