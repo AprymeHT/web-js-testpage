@@ -8,9 +8,10 @@ $(window).on('main:ready', (event, data) => {
 
 });
 
+
 $.getJSON('data/data.json', (data) => {
-  $(window).trigger('main:ready', [data])
-  console.log(data);
+  $(window).trigger('main:ready', [data]);
+
 });
 
 
