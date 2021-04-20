@@ -7,14 +7,10 @@ class MenuItem {
     $(window).on('main:ready', this.onLoad);
   }
 
-  // $('ul.menu-inner__list').append($('<li>')).attr('class', 'menu-inner__item');
-
-
   onLoad = (e, data) => {
     const {$element} = this;
     const {items, texts, links} = data.menu;
 
-    //const $container = $element.find('ul.menu-inner__list');
     const $container = $element.find('div.links-button');
     items.forEach(({text:textID, isLine, value}, index) => {
 
@@ -33,7 +29,6 @@ class MenuItem {
       console.log(link);
       $target.trigger('change-page', [link, name]);
     })
-      //$link.css({pointerEvents: 'none'});
   }
 
 }
@@ -42,13 +37,3 @@ $('.menu-inner').each((index, element) => {
   new MenuItem($(element));
   console.log($(element));
 })
-
-/*
-$('li.menu-inner__item').on('change-page', (event, link) => {
-  console.log(link);
-})
-
-$('li.menu-inner__item').click((event) => {
-  $(event.currentTarget).trigger('change-page', [$(event.currentTarget).attr("href")]);
-})
-*/

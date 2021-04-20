@@ -23,9 +23,8 @@ class Language {
   }
 
   langItems() {
-    const {$element} = this;
+    const {$element, data: {menu : {langItem}}} = this;
     const $container = $element.find('ul');
-    const {langItem} = this.data.menu;
     langItem.forEach(({change}) => {
       const str = `<li class="langs__item">${change}</li>`;
       $container.append(str);
