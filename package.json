@@ -137,7 +137,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "handlebars": "latest",
+    "handlebars": "^4.7.7",
     "jade": "^1.11.0",
     "jquery": "latest",
     "navigo": "latest",
