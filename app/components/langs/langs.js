@@ -1,3 +1,5 @@
+const Handlebars = require("handlebars");
+
 class Language {
   constructor($element) {
     console.log($element);
@@ -6,6 +8,14 @@ class Language {
     $(window).on('main:ready', this.onload);
 
     $(window).on('change-language', this.changeLang);
+
+    var data1 = {
+        name : 'John Doe'
+      }
+
+    var template = Handlebars.compile( $('#template').html() );
+    //$('.updates').append( template(data1) );
+    console.log(template(data1));
   }
 
   onload = (e, data) => {

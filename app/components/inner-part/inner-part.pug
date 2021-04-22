@@ -1,9 +1,14 @@
 
 mixin inner-part-column()
   .inner-part-column(data-trnslt="0")&attributes(attributes)
-    block
+    ul.updates
+      script.inner-part-column(id="template" type="text/x-handlebars-template")
+        li
+          h2 {{name}}
+          block
 
 mixin inner-part-content(title)
   .inner-part-content&attributes(attributes)
     h2.inner-part__title(data-trnslt="1")= title
     block
+

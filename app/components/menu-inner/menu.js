@@ -1,3 +1,5 @@
+const Handlebars = require("handlebars");
+
 class MenuItem {
   constructor($element) {
     console.log($element);
@@ -13,6 +15,9 @@ class MenuItem {
     const {$element} = this;
     const {items, texts, links} = data.menu;
     this.data = data;
+
+    const template = Handlebars.compile("{{name}}");
+    console.log(template({ name: data.menu.content[0].de }));
 
     const $container = $element.find('div.links-button');
     items.forEach(({text:textID, isLine, value}, index) => {
